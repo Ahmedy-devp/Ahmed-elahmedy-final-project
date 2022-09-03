@@ -1,0 +1,128 @@
+@media (max-width: 1399.98px) {
+  .team-box:hover .team-info {
+    height: 61%;
+  }
+  .big-dropdown {
+    left: 180px;
+  }
+}
+@media (max-width: 1187.98px) {
+  .big-dropdown {
+    left: 210px;
+    max-width: 700px;
+  }
+}
+@media (max-width: 991.98px) {
+  .special-dropdown,
+  .secondary-dropdown,
+  .big-dropdown {
+    position: relative !important;
+    display: none;
+    left: -92px !important;
+    background: #0e0202 !important;
+    border: none !important;
+  }
+
+  .special-dropdown .drop-list,
+  .secondary-dropdown .drop-list {
+    border: none !important;
+  }
+  .special-dropdown .drop-list a,
+  .secondary-dropdown .drop-list a,
+  .big-dropdown .box a,
+  .big-dropdown .box h2 {
+    color: white !important;
+  }
+  .big-dropdown {
+    display: none !important;
+    width: fit-content !important;
+    padding: 0;
+    top: 0;
+    left: 0 !important;
+  }
+  .big-dropdown .box {
+    background: #0e0202;
+  }
+  .navbar-collapse {
+    background-color: #0e0202;
+    padding: 20px 0 0 30px;
+  }
+  .navbar-collapse .nav-link {
+    color: white !important;
+  }
+  .carousel-indicators {
+    margin: 0 !important;
+    bottom: 40px !important;
+    left: 0 !important;
+  }
+
+  .talk-us h4:after {
+    display: none;
+  }
+  .box-none {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .landing-title {
+    font-size: 35px;
+  }
+  .landing-page .main-btn {
+    font-size: 14px;
+  }
+  
+  
+  
+  .box {
+    position: relative !important;
+    max-width: 516px;
+    bottom: 80px !important;
+  }
+  .box-img img {
+    width: 100%;
+    margin-top:43px !important;
+  }
+  .team-box:hover .team-info {
+    height: 66.6%;
+  }
+  .testmonials .card {
+    text-align: center;
+  }
+  .testmonials .card .row {
+    justify-content: center !important;
+  }
+  .testmonials .card .img-box {
+    margin-left: 0 !important;
+    margin-top: 10px !important;
+  }
+  .special-dropdown,
+  .secondary-dropdown {
+    left: -50px !important;
+  }
+  .our-work .card .card-img-overlay h4 {
+    font-size: 14px !important;
+  }
+  .our-work .card .card-img-overlay h5 {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .team-box:hover .team-info {
+    height: 55%;
+  }
+  .main-title h2 {
+    font-size: 18px !important;
+  }
+  .our-work ul li {
+    font-size: 12px;
+  }
+  .subscribe .btn {
+    margin-top: 20px;
+  }
+  .our-work .card .card-img-overlay h4 {
+    font-size: 16px !important;
+  }
+  .our-work .card .card-img-overlay h5 {
+    font-size: 22px !important;
+  }
+}
